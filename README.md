@@ -8,3 +8,5 @@ Jerry-Bot was designed with 3 strategies.
 - Seek out and retreive one item at a time 
 - Upon contact with an enemy, fire the laser
 - With 60 seconds remaining, shift focus to stealing all items from enemy base
+
+https://www.youtube.com/watch?v=j6T1fANLOO0
