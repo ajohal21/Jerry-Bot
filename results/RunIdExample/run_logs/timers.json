@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1679868304",
+        "python_version": "3.9.7 (default, Sep 16 2021, 23:53:23) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/opt/homebrew/Caskroom/miniconda/base/envs/unity-mla/bin/mlagents-learn config/agent_config.yaml --run-id=RunIdExample --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.0.post3",
+        "numpy_version": "1.21.3",
+        "end_time_seconds": "1679868371"
+    },
+    "total": 67.268636875,
+    "count": 1,
+    "self": 0.015462874999997211,
+    "children": {
+        "run_training.setup": {
+            "total": 0.014449500000000004,
+            "count": 1,
+            "self": 0.014449500000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 67.2387245,
+            "count": 1,
+            "self": 8.204099999886694e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 67.238538875,
+                    "count": 1,
+                    "self": 67.238538875
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0001035840000014332,
+                    "count": 1,
+                    "self": 0.0001035840000014332
+                }
+            }
+        }
+    }
+}
